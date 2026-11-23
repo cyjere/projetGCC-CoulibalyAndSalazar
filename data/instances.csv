@@ -1,0 +1,30 @@
+# Liste commune des instances (section 5.4 du plan). Chemins relatifs à data/ ; 'archive.zip#membre' = fichier lu dans l'archive.
+nom,source,fichier,c,optimum,categorie
+Mertens_c6,Scholl,SALBP_Scholl/precedence graphs/MERTENS.IN2,6,6,petite
+Bowman_c20,Scholl,SALBP_Scholl/precedence graphs/BOWMAN8.IN2,20,5,petite
+Jaeschke_c8,Scholl,SALBP_Scholl/precedence graphs/JAESCHKE.IN2,8,6,petite
+Jackson_c7,Scholl,SALBP_Scholl/precedence graphs/JACKSON.IN2,7,8,petite
+Mansoor_c48,Scholl,SALBP_Scholl/precedence graphs/MANSOOR.IN2,48,4,petite
+Mitchell_c14,Scholl,SALBP_Scholl/precedence graphs/MITCHELL.IN2,14,8,petite
+Roszieg_c14,Scholl,SALBP_Scholl/precedence graphs/ROSZIEG.IN2,14,10,petite
+Heskiaoff_c138,Scholl,SALBP_Scholl/precedence graphs/HESKIA.IN2,138,8,petite
+Buxey_c27,Scholl,SALBP_Scholl/precedence graphs/BUXEY.IN2,27,13,petite
+Sawyer_c25,Scholl,SALBP_Scholl/precedence graphs/SAWYER30.IN2,25,14,moyenne
+Lutz1_c1414,Scholl,SALBP_Scholl/precedence graphs/LUTZ1.IN2,1414,11,moyenne
+Gunther_c41,Scholl,SALBP_Scholl/precedence graphs/GUNTHER.IN2,41,14,moyenne
+Kilbridge_c56,Scholl,SALBP_Scholl/precedence graphs/KILBRID.IN2,56,10,moyenne
+Hahn_c2004,Scholl,SALBP_Scholl/precedence graphs/HAHN.IN2,2004,8,moyenne
+Warnecke_c54,Scholl,SALBP_Scholl/precedence graphs/WARNECKE.IN2,54,31,moyenne
+Tonge_c160,Scholl,SALBP_Scholl/precedence graphs/TONGE70.IN2,160,23,moyenne
+Wee-mag_c28,Scholl,SALBP_Scholl/precedence graphs/WEE-MAG.IN2,28,63,moyenne
+Arcus1_c3786,Scholl,SALBP_Scholl/precedence graphs/ARC83.IN2,3786,21,moyenne
+Lutz2_c11,Scholl,SALBP_Scholl/precedence graphs/LUTZ2.IN2,11,49,moyenne
+Lutz3_c75,Scholl,SALBP_Scholl/precedence graphs/LUTZ3.IN2,75,23,moyenne
+Mukherje_c176,Scholl,SALBP_Scholl/precedence graphs/MUKHERJE.IN2,176,25,moyenne
+Arcus2_c5755,Scholl,SALBP_Scholl/precedence graphs/ARC111.IN2,5755,27,grande
+Barthold_c403,Scholl,SALBP_Scholl/precedence graphs/BARTHOLD.IN2,403,14,grande
+Barthol2_c84,Scholl,SALBP_Scholl/precedence graphs/BARTHOL2.IN2,84,51,grande
+Scholl_c1394,Scholl,SALBP_Scholl/precedence graphs/SCHOLL.IN2,1394,50,grande
+Otto20_17,Otto,SALBP_Otto/small data set_n=20.zip#small data set_n=20/instance_n=20_17.alb,1000,10,petite
+Otto20_59,Otto,SALBP_Otto/small data set_n=20.zip#small data set_n=20/instance_n=20_59.alb,1000,4,petite
+Otto20_169,Otto,SALBP_Otto/small data set_n=20.zip#small data set_n=20/instance_n=20_169.alb,1000,11,petite

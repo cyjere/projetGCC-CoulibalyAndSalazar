@@ -1,0 +1,12 @@
+config,ecart_moyen_pct,ecart_meilleur_pct,ecart_moyen_stations,optimum_toujours_atteint,instances,temps_moyen_ms
+duree/aleatoire,4.31,3.92,0.71,14,28,0.08
+duree/indice,4.48,4.48,0.68,14,28,0.09
+rpw/indice,4.63,4.63,0.71,15,28,0.36
+rpw/duree,4.63,4.63,0.71,15,28,0.23
+rpw/aleatoire,4.77,4.56,0.71,14,28,0.24
+nb_successeurs/duree,4.84,4.84,0.75,15,28,0.13
+nb_successeurs/indice,6.46,6.46,1.0,10,28,0.12
+nb_successeurs/aleatoire,6.75,5.88,1.06,8,28,0.11
+aleatoire/duree,9.52,6.16,1.66,3,28,0.09
+aleatoire/aleatoire,9.52,6.16,1.66,3,28,0.08
+aleatoire/indice,9.52,6.16,1.66,3,28,0.08

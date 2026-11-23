@@ -1,0 +1,5 @@
+config,instances,optimalite_prouvee,optimum_atteint,sans_solution,ecart_moyen_stations,temps_moyen_s,temps_median_s,variables_moy,contraintes_moy,moteur
+defaut,24,20,22,1,0.043,5.44,0.252,976.0,126.0,highs
+precedence_cumul,24,20,22,0,0.083,5.77,0.265,976.0,1341.0,highs
+sans_symetrie,24,20,22,1,0.043,5.96,0.164,976.0,110.0,highs
+ub_triviale,24,18,20,3,0.048,8.55,0.701,2447.0,173.0,highs

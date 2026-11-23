@@ -1,0 +1,6 @@
+ortools>=9.8
+pandas>=1.5
+matplotlib>=3.6
+openpyxl>=3.0
+python-pptx>=0.6.21
+scipy>=1.11  # moteur de secours HiGHS pour M1 (facultatif si OR-Tools est installé)

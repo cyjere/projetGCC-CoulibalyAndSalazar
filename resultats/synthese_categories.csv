@@ -1,0 +1,9 @@
+methode,categorie,instances,sans_solution,optimum_atteint,pct_optimum_atteint,optimalite_prouvee,ecart_moyen_stations,ecart_moyen_pct,temps_moyen_s,temps_max_s
+H1,petite,12,0,8,66.7,0,0.33,5.57,0.0,0.0
+H1,moyenne,12,0,6,50.0,0,0.83,3.83,0.0,0.0
+H1,grande,4,0,1,25.0,0,1.5,4.26,0.001,0.003
+H1,toutes,28,0,15,53.6,0,0.71,4.63,0.0,0.003
+M1,petite,12,0,12,100.0,12,0.0,0.0,0.179,1.424
+M1,moyenne,12,1,10,83.3,9,0.09,0.29,19.68,60.039
+M1,grande,4,1,2,50.0,2,0.67,1.31,33.062,60.169
+M1,toutes,28,2,24,85.7,23,0.12,0.27,13.234,60.169

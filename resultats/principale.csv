@@ -1,0 +1,57 @@
+experience,instance,source,categorie,n,c,optimum,lb,methode,config,moteur,params,graine,statut,nb_stations,ecart_opt,ecart_opt_pct,ecart_lb,temps_s,valide,erreurs,K,nb_variables,nb_contraintes,borne_solveur
+principale,Mertens_c6,Scholl,petite,7,6,6,6,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,6,0,0.0,0,0.0001,1,,,,,
+principale,Mertens_c6,Scholl,petite,7,6,6,6,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,6,0,0.0,0,0.2172,1,,6,48,25,6.0
+principale,Bowman_c20,Scholl,petite,8,20,5,4,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,5,0,0.0,1,0.0001,1,,,,,
+principale,Bowman_c20,Scholl,petite,8,20,5,4,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,5,0,0.0,1,0.0067,1,,5,45,26,5.0
+principale,Jaeschke_c8,Scholl,petite,9,8,6,6,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,6,0,0.0,0,0.0001,1,,,,,
+principale,Jaeschke_c8,Scholl,petite,9,8,6,6,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,6,0,0.0,0,0.0021,1,,6,60,32,6.0
+principale,Jackson_c7,Scholl,petite,11,7,8,7,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,8,0,0.0,1,0.0001,1,,,,,
+principale,Jackson_c7,Scholl,petite,11,7,8,7,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,8,0,0.0,1,0.0035,1,,8,96,40,8.0
+principale,Mansoor_c48,Scholl,petite,11,48,4,4,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,5,1,25.0,1,0.0001,1,,,,,
+principale,Mansoor_c48,Scholl,petite,11,48,4,4,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,4,0,0.0,0,0.0068,1,,4,48,30,4.0
+principale,Mitchell_c14,Scholl,petite,21,14,8,8,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,8,0,0.0,0,0.0001,1,,,,,
+principale,Mitchell_c14,Scholl,petite,21,14,8,8,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,8,0,0.0,0,0.0089,1,,8,176,64,8.0
+principale,Roszieg_c14,Scholl,petite,25,14,10,9,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,10,0,0.0,1,0.0001,1,,,,,
+principale,Roszieg_c14,Scholl,petite,25,14,10,9,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,10,0,0.0,1,0.0147,1,,10,260,77,10.0
+principale,Heskiaoff_c138,Scholl,petite,28,138,8,8,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,8,0,0.0,0,0.0001,1,,,,,
+principale,Heskiaoff_c138,Scholl,petite,28,138,8,8,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,8,0,0.0,0,0.0115,1,,8,232,83,8.0
+principale,Buxey_c27,Scholl,petite,29,27,13,12,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,14,1,7.692,2,0.0001,1,,,,,
+principale,Buxey_c27,Scholl,petite,29,27,13,12,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,13,0,0.0,1,0.2701,1,,13,390,91,13.0
+principale,Sawyer_c25,Scholl,moyenne,30,25,14,13,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,14,0,0.0,1,0.0001,1,,,,,
+principale,Sawyer_c25,Scholl,moyenne,30,25,14,13,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,14,0,0.0,1,0.1008,1,,14,434,90,14.0
+principale,Lutz1_c1414,Scholl,moyenne,32,1414,11,10,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,11,0,0.0,1,0.0002,1,,,,,
+principale,Lutz1_c1414,Scholl,moyenne,32,1414,11,10,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,11,0,0.0,1,0.302,1,,11,363,92,11.0
+principale,Gunther_c41,Scholl,moyenne,35,41,14,12,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,16,2,14.286,4,0.0001,1,,,,,
+principale,Gunther_c41,Scholl,moyenne,35,41,14,12,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,14,0,0.0,2,0.6779,1,,15,540,110,14.0
+principale,Kilbridge_c56,Scholl,moyenne,45,56,10,10,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,11,1,10.0,1,0.0003,1,,,,,
+principale,Kilbridge_c56,Scholl,moyenne,45,56,10,10,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,10,0,0.0,0,0.316,1,,11,506,129,10.0
+principale,Hahn_c2004,Scholl,moyenne,53,2004,8,7,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,8,0,0.0,1,0.0002,1,,,,,
+principale,Hahn_c2004,Scholl,moyenne,53,2004,8,7,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,8,0,0.0,1,0.0169,1,,8,432,151,8.0
+principale,Warnecke_c54,Scholl,moyenne,58,54,31,29,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,33,2,6.452,4,0.0002,1,,,,,
+principale,Warnecke_c54,Scholl,moyenne,58,54,31,29,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,FAISABLE,32,1,3.226,3,60.0206,1,,33,1947,194,30.0
+principale,Tonge_c160,Scholl,moyenne,70,160,23,22,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,23,0,0.0,1,0.0004,1,,,,,
+principale,Tonge_c160,Scholl,moyenne,70,160,23,22,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,FAISABLE,23,0,0.0,1,60.0169,1,,23,1633,202,22.0
+principale,Wee-mag_c28,Scholl,moyenne,75,28,63,61,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,63,0,0.0,2,0.0004,1,,,,,
+principale,Wee-mag_c28,Scholl,moyenne,75,28,63,61,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,63,0,0.0,2,48.7393,1,,63,4788,288,63.0
+principale,Arcus1_c3786,Scholl,moyenne,83,3786,21,20,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,22,1,4.762,2,0.0005,1,,,,,
+principale,Arcus1_c3786,Scholl,moyenne,83,3786,21,20,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,21,0,0.0,1,3.6163,1,,22,1848,240,21.0
+principale,Lutz2_c11,Scholl,moyenne,89,11,49,45,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,52,3,6.122,7,0.0005,1,,,,,
+principale,Lutz2_c11,Scholl,moyenne,89,11,49,45,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,AUCUNE,,,,,60.0393,,,50,4500,307,
+principale,Lutz3_c75,Scholl,moyenne,89,75,23,22,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,24,1,4.348,2,0.0004,1,,,,,
+principale,Lutz3_c75,Scholl,moyenne,89,75,23,22,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,23,0,0.0,1,1.3555,1,,24,2160,255,23.0
+principale,Mukherje_c176,Scholl,moyenne,94,176,25,24,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,25,0,0.0,1,0.0004,1,,,,,
+principale,Mukherje_c176,Scholl,moyenne,94,176,25,24,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,25,0,0.0,1,0.9557,1,,25,2375,325,25.0
+principale,Arcus2_c5755,Scholl,grande,111,5755,27,27,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,27,0,0.0,0,0.0005,1,,,,,
+principale,Arcus2_c5755,Scholl,grande,111,5755,27,27,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,27,0,0.0,0,3.6541,1,,27,3024,341,27.0
+principale,Barthold_c403,Scholl,grande,148,403,14,14,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,15,1,7.143,1,0.0008,1,,,,,
+principale,Barthold_c403,Scholl,grande,148,403,14,14,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,14,0,0.0,0,8.3446,1,,15,2235,353,14.0
+principale,Barthol2_c84,Scholl,grande,148,84,51,51,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,54,3,5.882,3,0.0008,1,,,,,
+principale,Barthol2_c84,Scholl,grande,148,84,51,51,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,FAISABLE,53,2,3.922,2,60.0801,1,,53,7897,429,51.0
+principale,Scholl_c1394,Scholl,grande,297,1394,50,50,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,52,2,4.0,2,0.003,1,,,,,
+principale,Scholl_c1394,Scholl,grande,297,1394,50,50,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,AUCUNE,,,,,60.1694,,,52,15496,824,
+principale,Otto20_17,Otto,petite,20,1000,10,10,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,10,0,0.0,0,0.0002,1,,,,,
+principale,Otto20_17,Otto,petite,20,1000,10,10,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,10,0,0.0,0,0.1103,1,,10,210,57,10.0
+principale,Otto20_59,Otto,petite,20,1000,4,4,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,5,1,25.0,1,0.0001,1,,,,,
+principale,Otto20_59,Otto,petite,20,1000,4,4,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,4,0,0.0,0,0.0663,1,,5,105,47,4.0
+principale,Otto20_169,Otto,petite,20,1000,11,10,H1,rpw/indice,,"{""regle"": ""rpw"", ""departage"": ""indice""}",,HEURISTIQUE,12,1,9.091,2,0.0001,1,,,,,
+principale,Otto20_169,Otto,petite,20,1000,11,10,M1,defaut,highs,"{""moteur"": ""highs"", ""temps_limite"": 60.0, ""symetrie"": true, ""borne_sup"": ""h1"", ""precedence"": ""somme""}",,OPTIMAL,11,0,0.0,1,1.4242,1,,11,231,58,11.0
