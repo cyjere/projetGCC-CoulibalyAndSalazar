@@ -2,23 +2,20 @@
 
 Ce dossier contient trois scripts à copier dans le dossier `src/` du dépôt existant : (je les ai déjà ajoutés)
 
-- `h1_amelioree.py` : heuristique constructive avec nouvelles priorités et critère de remplissage ;
-- `benchmark_h1_amelioree.py` : protocole d'expérimentation et enregistrement des résultats ;
-- `analyse_h1_amelioree.py` : synthèses statistiques et graphiques.
 
 La version existante `h1_rpw.py` n'est pas modifiée. La recherche locale n'est pas incluse :
 elle correspond à H2 dans le projet.
 
 ## 1. Installation
 
-Les scripts réutilisent les modules du projet :
+Le script réutilise les modules du projet :
 
 - `instance.py`
 - `resultat.py`
 - `verificateur.py`
 - `bornes.py` (facultatif pour l'affichage de l'écart à la borne)
 
-Ils utilisent les bibliothèques déjà nécessaires au projet : `pandas` et `matplotlib`
+Il utilise les bibliothèques déjà nécessaires au projet : `pandas` et `matplotlib`
 pour l'analyse. Aucun solveur supplémentaire n'est requis pour H1 améliorée.
 
 ## 2. Copier les fichiers
@@ -40,25 +37,25 @@ python src/h1_amelioree.py Mertens_c6
 Sur toutes les instances :
 
 ```bash
-python src/benchmark_h1_amelioree.py
+python src/benchmark_h1.py
 ```
 
 Sur quelques instances pour vérifier rapidement :
 
 ```bash
-python src/benchmark_h1_amelioree.py --instances Mertens_c6 Bowman_c20
+python src/benchmark_h1.py --instances Mertens_c6 Bowman_c20
 ```
 
 Avec 30 graines pour les variantes aléatoires :
 
 ```bash
-python src/benchmark_h1_amelioree.py --graines 30
+python src/benchmark_h1.py --graines 30
 ```
 
 Pour reprendre un benchmark interrompu :
 
 ```bash
-python src/benchmark_h1_amelioree.py --reprendre
+python src/benchmark_h1.py --reprendre
 ```
 
 Le benchmark enregistre :
@@ -68,19 +65,8 @@ Le benchmark enregistre :
 Les solutions passent toutes par le vérificateur commun. Une solution invalide est marquée
 `valide=0`.
 
-## 5. Analyser les résultats
 
-```bash
-python src/analyse_h1_amelioree.py
-```
-
-Fichiers produits :
-- `resultats/synthese_h1_amelioree.csv`
-- `resultats/synthese_h1_amelioree_par_instance.csv`
-- `resultats/comparaison_h1_reference.csv` si `resultats/principale.csv` est disponible
-- graphiques dans `resultats/figures/`
-
-## 6. Choix méthodologiques de cette première version
+## 5. Choix méthodologiques de cette première version
 
 ### Règle mixte
 
@@ -128,7 +114,7 @@ expérimentales à comparer.
   `m1_cpsat.py` continue d'utiliser la fonction H1 de référence. Il faudra une modification
   explicite et contrôlée de M1 pour étudier l'apport de H1 améliorée à M1.
 
-## 7. Recommandation pour le protocole
+## 6. Recommandation pour le protocole
 
 Commencer par un petit sous-ensemble pour vérifier l'intégration, puis lancer le benchmark
 complet. Comparer les variantes sur les mêmes instances. Pour les variantes aléatoires,
